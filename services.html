@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DrewSite: Services</title>
+    <link rel="icon" type="image/png" href="logo.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="logo.png" sizes="16x16">
+    <link rel="apple-touch-icon" href="logo.png">
+    <meta name="theme-color" content="#a855f7">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="bg-grid"></div>
+    <div class="bg-noise"></div>
+
+    <nav class="site-nav">
+        <a href="index.html" class="nav-logo">
+            <img src="logo.png" alt="DrewSite Logo">
+        </a>
+        <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+            <i class="fas fa-bars"></i>
+        </button>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html" class="active">Services</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header reveal">
+        <div class="container">
+            <h1><i class="fas fa-star"></i> What I Offer</h1>
+            <p class="section-lead">Commercial video production and paid ad campaigns for businesses that need marketing done right.</p>
+        </div>
+    </section>
+
+    <!-- Service Detail Section -->
+    <section class="tier-detail-section">
+        <div class="container">
+            <div class="tier-detail-grid">
+                <div class="tier-detail-card service-card reveal motif-border">
+                    <h3><i class="fas fa-video"></i> Commercial Video Production</h3>
+                    <ul>
+                        <li><i class="fas fa-check-circle"></i>Branded commercials and promotional stories</li>
+                        <li><i class="fas fa-check-circle"></i>Documentary-style profiles and interview-driven content</li>
+                        <li><i class="fas fa-check-circle"></i>On-location and in-studio production</li>
+                        <li><i class="fas fa-check-circle"></i>Content built for ads, websites, and social platforms</li>
+                        <li><i class="fas fa-check-circle"></i>Professional execution from concept to final deliverable</li>
+                    </ul>
+                </div>
+
+                <div class="tier-detail-card service-card reveal motif-border">
+                    <h3><i class="fas fa-bullhorn"></i> Paid Ad Campaign Management</h3>
+                    <ul>
+                        <li><i class="fas fa-check-circle"></i>End-to-end campaigns on Meta, Google, and TikTok ads</li>
+                        <li><i class="fas fa-check-circle"></i>Strategy, audience targeting, and budget planning</li>
+                        <li><i class="fas fa-check-circle"></i>Creative production tied directly to campaign goals</li>
+                        <li><i class="fas fa-check-circle"></i>Ad launch, monitoring, and ongoing optimization</li>
+                        <li><i class="fas fa-check-circle"></i>One partner for the full pipeline, not just a video file</li>
+                    </ul>
+                </div>
+
+                <div class="tier-detail-card service-card reveal motif-border">
+                    <h3><i class="fas fa-laptop-code"></i> Web Design</h3>
+                    <p class="tier-includes">A supporting service for your broader marketing presence:</p>
+                    <ul>
+                        <li><i class="fas fa-check-circle"></i>Clean, modern websites built for your business</li>
+                        <li><i class="fas fa-check-circle"></i>Essential pages and contact forms included</li>
+                        <li><i class="fas fa-check-circle"></i>Mobile-friendly and built to host your content and campaigns</li>
+                        <li><i class="fas fa-check-circle"></i>Professional design that reflects your brand</li>
+                    </ul>
+                    <p class="custom-quote"><i class="fas fa-info-circle"></i> Contact me to discuss your project.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Video & Ads Section -->
+    <section id="why-section" class="why-section reveal">
+        <div class="container">
+            <div class="two-columns">
+                <div class="left-column">
+                    <h2><i class="fas fa-question-circle"></i> Why video and paid ads</h2>
+                </div>
+                <div class="right-column">
+                    <div class="slider">
+                        <div class="slider-content-container">
+                            <div class="slide-content">
+                                <h3></h3>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="slider-controls">
+                            <button class="slider-arrow" onclick="prevSlide()">
+                                <i class="fas fa-chevron-left"></i>
+                            </button>
+                            <button class="slider-arrow" onclick="nextSlide()">
+                                <i class="fas fa-chevron-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="process-section reveal">
+        <div class="container">
+            <h2><i class="fas fa-list-ol"></i> How It Works</h2>
+            <div class="process-grid">
+                <div class="process-step reveal motif-border">
+                    <div class="process-number">1</div>
+                    <h3>Talk</h3>
+                    <p>We talk about your business, your audience, and what you need the campaign to do.</p>
+                </div>
+                <div class="process-step reveal motif-border">
+                    <div class="process-number">2</div>
+                    <h3>Produce</h3>
+                    <p>I produce the creative and build the campaign strategy around your goals and budget.</p>
+                </div>
+                <div class="process-step reveal motif-border">
+                    <div class="process-number">3</div>
+                    <h3>Launch</h3>
+                    <p>I deliver finished content and launch your ads. You get results, not a pile of files and homework.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bottom Call to Action -->
+    <section class="bottom-cta-section reveal">
+        <div class="container">
+            <div class="hero-cta-group">
+                <a href="contact.html" class="btn cta-btn">Start Your Project</a>
+                <a href="https://calendar.app.google/S2kXbDQ9ufsJ4WKHA" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">Book a Strategy Call</a>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
